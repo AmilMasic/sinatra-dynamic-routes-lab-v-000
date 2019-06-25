@@ -16,6 +16,6 @@ class App < Sinatra::Base
   get '/say:number/:phrase' do
     @times = params[:number]
     @phrase = params[:phrase]
-    
+
   end
 end
